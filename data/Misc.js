@@ -1,5 +1,8 @@
 const chance = require('chance');
 const { nanoid } = require( "nanoid" );
+const {readJSONFile,
+	writeJSONFile} = require("helpers.js")
+
 
 const games = {
 	id: nanoid(4),
