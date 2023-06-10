@@ -1,0 +1,162 @@
+[
+  {
+    "id": "Qslb",
+    "name": "Licensed Kitty Pryde",
+    "genre": "Casual Maze Platformer",
+    "platform": "Xbox One",
+    "priceInCents": 5663,
+    "inStock": true
+  },
+  {
+    "id": "S4-h",
+    "name": "Tasty Blink",
+    "genre": "Casual Police Combat",
+    "platform": "Nintendo Wii",
+    "priceInCents": 3925,
+    "inStock": false
+  },
+  {
+    "id": "eX7h",
+    "name": "Fantastic Superman",
+    "genre": "Pretentious Candy RPG",
+    "platform": "Xbox Series X/S",
+    "priceInCents": 2958,
+    "inStock": true
+  },
+  {
+    "id": "QBbt",
+    "name": "Intelligent Rogue",
+    "genre": "Political Maze Fantasy",
+    "platform": "PS3",
+    "priceInCents": 1281,
+    "inStock": true
+  },
+  {
+    "id": "LGIQ",
+    "name": "Tasty Gamora",
+    "genre": "Stealthy Star Adventure",
+    "platform": "Nintendo Switch",
+    "priceInCents": 1996,
+    "inStock": true
+  },
+  {
+    "id": "2JrW",
+    "name": "Small Spider-man",
+    "genre": "Space Airplane Roguelike",
+    "platform": "Nintendo Switch",
+    "priceInCents": 3023,
+    "inStock": false
+  },
+  {
+    "id": "qH3h",
+    "name": "Gorgeous She-Hulk",
+    "genre": "Bullet-Hell Star Survival",
+    "platform": "Nintendo Switch",
+    "priceInCents": 4671,
+    "inStock": false
+  },
+  {
+    "id": "gD0r",
+    "name": "Awesome Punisher",
+    "genre": "Rogue Police RPG",
+    "platform": "Nintendo Gamecube",
+    "priceInCents": 5567,
+    "inStock": false
+  },
+  {
+    "id": "wolg",
+    "name": "Incredible Martian Manhunter",
+    "genre": "Arty Football MMO",
+    "platform": "Xbox Series X/S",
+    "priceInCents": 4387,
+    "inStock": true
+  },
+  {
+    "id": "FP-E",
+    "name": "Unbranded Iron Man",
+    "genre": "Social Police Simulator",
+    "platform": "Nintendo Wii",
+    "priceInCents": 1064,
+    "inStock": false
+  },
+  {
+    "id": "jf40",
+    "name": "Intelligent Spider-man",
+    "genre": "Casual Superhero Strategy",
+    "platform": "PS3",
+    "priceInCents": 4292,
+    "inStock": true
+  },
+  {
+    "id": "8rXB",
+    "name": "Incredible Black Lightning",
+    "genre": "Space Police Fighting",
+    "platform": "Nintendo Gamecube",
+    "priceInCents": 5422,
+    "inStock": false
+  },
+  {
+    "id": "5h3J",
+    "name": "Tasty Power Girl",
+    "genre": "First-Person Surgery Fighting",
+    "platform": "PS3",
+    "priceInCents": 5505,
+    "inStock": false
+  },
+  {
+    "id": "Vfs6",
+    "name": "Practical Aquaman",
+    "genre": "Arty Candy MMO",
+    "platform": "Xbox One",
+    "priceInCents": 4805,
+    "inStock": true
+  },
+  {
+    "id": "yLm-",
+    "name": "Rustic Martian Manhunter",
+    "genre": "Procedurally-Generated Midwife Horror",
+    "platform": "PS4",
+    "priceInCents": 4991,
+    "inStock": false
+  },
+  {
+    "id": "0kX4",
+    "name": "Refined Gambit",
+    "genre": "Musical Football Saga",
+    "platform": "Nintendo Gamecube",
+    "priceInCents": 5264,
+    "inStock": false
+  },
+  {
+    "id": "sQDH",
+    "name": "Handcrafted Elektra",
+    "genre": "Stealthy Sandbox Fighting",
+    "platform": "PS3",
+    "priceInCents": 3026,
+    "inStock": false
+  },
+  {
+    "id": "5PDC",
+    "name": "Unbranded Batman",
+    "genre": "Space Maze Sports",
+    "platform": "Xbox 360",
+    "priceInCents": 1862,
+    "inStock": false
+  },
+  {
+    "id": "LW5N",
+    "name": "Unbranded Daredevil",
+    "genre": "Musical Airplane Sports",
+    "platform": "PS5",
+    "priceInCents": 5605,
+    "inStock": false
+  },
+  {
+    "id": "hkyO",
+    "name": "Practical Captain Atom",
+    "genre": "Dystopian Surgery RPG",
+    "platform": "Xbox 360",
+    "priceInCents": 5631,
+    "inStock": false
+  }
+]

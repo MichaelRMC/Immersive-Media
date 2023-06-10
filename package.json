@@ -1,13 +1,18 @@
 {
-  "name": "immersive-media",
+  "name": "Immersive-Media",
   "version": "1.0.0",
-  "description": "",
+  "description": "Your One Stop Shop For All Your Immersive Gaming Needs.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node index.js",
+    "index": "node index.js index",
+    "create": "node index.js create",
+    "show": "node index.js show",
+    "update": "node index.js update",
+    "delete": "node index.js delete"
   },
-  "author": "",
+  "author": "Michael Caldwell",
   "license": "ISC",
   "devDependencies": {
     "@ngneat/falso": "^6.4.0",
