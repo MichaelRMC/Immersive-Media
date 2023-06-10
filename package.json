@@ -5,17 +5,17 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
     "index": "node index.js index",
     "create": "node index.js create",
     "show": "node index.js show",
     "update": "node index.js update",
-    "delete": "node index.js delete"
+    "destroy": "node index.js destroy"
   },
   "author": "Michael Caldwell",
   "license": "ISC",
   "devDependencies": {
     "@ngneat/falso": "^6.4.0",
+    "chalk": "^4.1.2",
     "nanoid": "^3.3.6"
   },
   "keywords": []

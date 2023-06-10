@@ -155,8 +155,29 @@
     "id": "hkyO",
     "name": "Practical Captain Atom",
     "genre": "Dystopian Surgery RPG",
-    "platform": "Xbox 360",
     "priceInCents": 5631,
-    "inStock": false
+    "inStock": false,
+    "platform": "PS4"
+  },
+  {
+    "id": "LRRv",
+    "name": "Refined Moon Knight",
+    "genre": "Pretentious Sandbox Fighting",
+    "platform": "PS4",
+    "priceInCents": 4876
+  },
+  {
+    "id": "Pgpx",
+    "name": "Awesome Supergirl",
+    "genre": "Stealthy Cookery Platformer",
+    "platform": "PS3",
+    "priceInCents": 5036
+  },
+  {
+    "id": "ZdsX",
+    "name": "Practical Batgirl",
+    "genre": "Stealthy Airplane Strategy",
+    "platform": "Nintendo Switch",
+    "priceInCents": 1462
   }
 ]
