@@ -1,0 +1,4 @@
+{
+  "eslint.debug": true,
+  "prettier.enableDebugLogs": true
+}

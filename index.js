@@ -7,7 +7,8 @@ const {
   show,
   addToCart,
   removeFromCart,
-} = require("./src/game-controller");
+} = require( "./src/game-controller" );
+
 const inform = console.log;
 
 function run ()
