@@ -9,7 +9,9 @@
     "create": "node index.js create",
     "show": "node index.js show",
     "update": "node index.js update",
-    "destroy": "node index.js destroy"
+    "destroy": "node index.js destroy",
+    "addToCart": " node index.js addToCart",
+    "removeFromCart": "node index.js removeFromCart"
   },
   "author": "Michael Caldwell",
   "license": "ISC",
