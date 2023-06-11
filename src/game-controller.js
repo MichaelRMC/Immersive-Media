@@ -1,8 +1,12 @@
 const falso = require("@ngneat/falso");
 const { nanoid } = require("nanoid");
 const games = require("../data/games.json");
-const { genreMatch, consoles, gameSystem, } = require( "../data/gameGenreAndPlatfromDatabase" );
-const cart = require( "../data/cart.json" );
+
+const {
+  genreMatch,
+  consoles,
+  gameSystem,
+} = require("../data/gameGenreAndPlatfromDatabase");
 
 const inform = console.log;
 
@@ -53,21 +57,14 @@ function update(games, gameId, gamePlatform) {
   }
 }
 
-function addToCart ( games, gameName, cart )
-{
-  const purchasedGame = games.find( ( game ) => game.name === gameName );
-  if (condition) {
-    
-  } else {
-    
-  }
-    
-  }
- }
-function removeFromCart ( games, gameName, cart, )
-{
-  
-}
+function addCart(games,game, gameName, ) {
+  const gameInCart = games.find((game) => game.name === gameName);
+    let gameCart = Object.create({}, gameInCart)
+    gameCart.itemTotal += 1;
+    gameCart.cartTotal += games.priceInCents;
+  return console.log(gameCart);
+};
+function cancelCart(games, gameName,gameCart) {}
 
 module.exports = {
   create,
@@ -75,6 +72,6 @@ module.exports = {
   show,
   destroy,
   update,
-  addToCart,
-  removeFromCart,
+  addCart,
+  cancelCart,
 };

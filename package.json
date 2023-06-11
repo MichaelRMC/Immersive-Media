@@ -1,5 +1,5 @@
 {
-  "name": "Immersive-Media",
+  "name": "immersive-media",
   "version": "1.0.0",
   "description": "Your One Stop Shop For All Your Immersive Gaming Needs.",
   "main": "index.js",
@@ -10,8 +10,8 @@
     "show": "node index.js show",
     "update": "node index.js update",
     "destroy": "node index.js destroy",
-    "addToCart": " node index.js addToCart",
-    "removeFromCart": "node index.js removeFromCart"
+    "addCart": " node index.js addCart",
+    "cancelCart": "node index.js cancelCart"
   },
   "author": "Michael Caldwell",
   "license": "ISC",
@@ -20,5 +20,5 @@
     "chalk": "^4.1.2",
     "nanoid": "^3.3.6"
   },
-  "keywords": []
+  "keywords": [ ]
 }
