@@ -54,6 +54,13 @@ const index = games.findIndex((game) => game.id === gameId);
     return games;
   }
 }
+e
+function addToCart(games, gameName, cart  ) {
+	const inform = console.log;
+
+
+}
+
 
 
 
@@ -63,4 +70,5 @@ module.exports = {
 	show,
 	destroy,
 	update,
+	addToCart,
 };

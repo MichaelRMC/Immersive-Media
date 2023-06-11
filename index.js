@@ -5,6 +5,8 @@ const {
   update,
   index,
   show,
+  addToCart,
+  removeFromCart,
 } = require("./src/game-controller");
 const inform = console.log;
 
@@ -37,8 +39,8 @@ function run ()
       updatedGameList = destroy(games, game)
       writeToFile = true;
       break;
-    case "cart":
-      inform(action);
+    case "addToCart":
+      inform("Action successful! Game added to cart.");
       break;
     default:
       inform("There was an error.");
