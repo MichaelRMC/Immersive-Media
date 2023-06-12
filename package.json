@@ -10,6 +10,8 @@
     "show": "node index.js show",
     "update": "node index.js update",
     "destroy": "node index.js destroy",
+    "filterGenre": "node index.js filterGenre",
+    "filterPlatform": "node index.js filterPlatform",
     "addCart": " node index.js addCart",
     "cancelCart": "node index.js cancelCart"
   },

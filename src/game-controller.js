@@ -1,7 +1,7 @@
 const falso = require("@ngneat/falso");
 const { nanoid } = require("nanoid");
+const chalk = require("chalk");
 const games = require("../data/games.json");
-
 const {
   genreMatch,
   consoles,
@@ -36,10 +36,12 @@ function destroy(games, gameId) {
   const index = games.findIndex((game) => game.id === gameId);
   if (index > -1) {
     games.splice(index, 1);
-    inform("Game successfully removed from collection");
+    inform(
+      chalk.rgb(255, 0, 0).italic("Game successfully removed from collection")
+    );
     return games;
   } else {
-    inform("Game not found. No action taken");
+    inform(chalk.bgAnsi256(227).italic("Game not found. No action taken"));
     return games;
   }
 }
@@ -49,22 +51,26 @@ function update(games, gameId, gamePlatform) {
   if (index > -1) {
     games[index].id = gameId;
     games[index].platform = gamePlatform;
-    inform("Game successfully updated");
+    inform(chalk.hex("#00ffb7").bold("Game successfully updated"));
     return games;
   } else {
-    inform("Game not found. No action taken");
+    inform(chalk.hex("#ff6200").bold("Game not found."));
     return games;
   }
 }
 
-function addCart(games,game, gameName, ) {
-  const gameInCart = games.find((game) => game.name === gameName);
-    let gameCart = Object.create({}, gameInCart)
-    gameCart.itemTotal += 1;
-    gameCart.cartTotal += games.priceInCents;
-  return console.log(gameCart);
-};
-function cancelCart(games, gameName,gameCart) {}
+function filterByPlatform(games, gamePlatform) {
+  let result = games.filter((game) => game.platform === gamePlatform);
+  return result;
+}
+
+function addCart(games, gameName, gameCart) {
+  gameCart = {};
+  const gameInCart = games.find((game) => games.includes(gameName) ===  game.name);
+  gameCart.immersiveTotal = [ itemTotal = 1, cartTotal = gameInCart.priceInCents];
+  return gameCart.splice(0, 0, gameInCart, immersiveTotal);
+}
+function cancelCart(games, gameName, gameCart) {}
 
 module.exports = {
   create,
@@ -72,6 +78,7 @@ module.exports = {
   show,
   destroy,
   update,
+  filterByPlatform,
   addCart,
   cancelCart,
 };
